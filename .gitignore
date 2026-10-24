@@ -1,0 +1,14 @@
+@"
+.vs/
+*.sln
+*.suo
+*.user
+*.userprefs
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+*_BuiltData.uasset
+"@ | Out-File -FilePath .gitignore -Encoding utf8
